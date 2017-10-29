@@ -75,9 +75,35 @@ h2{
 }
 
 h3{
-    font-size:15pt;
-    margin:10px 0;
-    margin-left:8%;
+    font-size:18pt;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-left: 8%;
+}
+
+a{
+    text-decoration: none;
+    color: #90000E;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #595959;
+}
+
+#imgPosition{
+    width: 40%;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+#textPosition{
+    width: 40%;
+    margin-left: 2%;
+    text-align: justify;
+    display: inline-block;
+    font-size: 14pt;
+    vertical-align: top;
 }
 
 #textFooter{
@@ -92,6 +118,7 @@ h3{
 #diro{
     width: 15%;
     display: inline-block;
+    vertical-align: center;
 }
 
 footer {
