@@ -48,6 +48,10 @@ nav{
     color: #90000E
 }
 
+.menu.selected{
+    text-decoration: underline;
+}
+
 hr{
     margin: 0 8%;
 }
