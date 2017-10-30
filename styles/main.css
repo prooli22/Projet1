@@ -85,6 +85,11 @@ h3{
     margin-left: 8%;
 }
 
+ul{
+    list-style:disc;
+    margin:10px 15px;
+}
+
 a{
     text-decoration: none;
     color: #90000E;
