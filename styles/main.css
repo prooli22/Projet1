@@ -248,7 +248,7 @@ footer {
     }
 
     .dropdown img:hover {
-        height: 52px;
+        height: 42px;
     }
 
     .dropdown img:focus {
@@ -275,7 +275,7 @@ footer {
 
     .menu{
         display: block;
-        width: 80px;
+        width: 100px;
         margin-top: 10px;
     }
 
