@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 
-   Partie du CSS qui permet de mettre tout formattage par défaut du fureteur à 0.
+   Partie du CSS qui permet de mettre tout le formattage par défaut du fureteur à 0.
 */
 
 html, body, div, span, applet, object, iframe,
@@ -161,6 +161,10 @@ a:hover{
     color: #595959;
 }
 
+.cartes{
+    margin-left: 15%;
+}
+
 #imgPosition{
     width: 35%;
     margin-left: 15%;
@@ -176,25 +180,25 @@ a:hover{
 }
 
 #textFooter{
-    height: 90%;
     width: 40%;
+    margin-top: 18px;
     margin-left: 30%;
-    margin-right: 10%;
+    margin-right: 12%;
     text-align: center;
     display: inline-block;
+   
 }
 
 #diro{
     width: 15%;
+    margin-top: 18px;
     display: inline-block;
-    vertical-align: center;
 }
 
 footer {
-    height: 50px;
+    height: 80px;
 	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
-	padding: 10px;
 	margin-top: 80px;
 	margin-bottom: 0px;
 }
@@ -213,9 +217,14 @@ footer {
         margin-top: -2px;
     }
 
+    #imgPosition, #textPosition{
+        width: 70%;
+        margin-left: 15%;
+    }
 
 }
 
+/*  Lorsque l'écran est plus petite que 670px, on change le menu et le footer  */
 @media screen and (max-width: 670px) {
 
     #logo{
@@ -234,8 +243,8 @@ footer {
 
     .dropdown img {
         display: initial;
-        height: 50px;
-        margin: 12px 10px 0;
+        height: 40px;
+        margin: 18px 20px 0;
     }
 
     .dropdown img:hover {
@@ -268,5 +277,17 @@ footer {
         display: block;
         width: 80px;
         margin-top: 10px;
+    }
+
+    #textFooter{
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    #diro{
+        width: 30%;
+        vertical-align: top;
     }
 }
